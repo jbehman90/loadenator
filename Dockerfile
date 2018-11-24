@@ -2,5 +2,5 @@ FROM golang
 
 COPY . .
 
-RUN go build
+RUN go build hello-world.go
 
